@@ -1,9 +1,16 @@
-const boton = document.querySelector('.botonPrueba');
+const logoMenuPrincipal = document.querySelector('.imgMenuPrincipal');
+
+const menuPrincipalHorizontal = document.querySelector('.asideMenuPrincipal');
+const menuPrincipalVertical = document.querySelector('.asideMenu2Principal');
 
 
 
-boton.addEventListener('click', alertarse);
 
-function alertarse() {
-    alert('Presionaste el boton');
+logoMenuPrincipal.addEventListener('click', abrirMenuPricipal);
+
+
+function abrirMenuPricipal() {
+    menuPrincipalHorizontal.classList.toggle('inactive');
+    menuPrincipalVertical.classList.toggle('inactive');
+
 }
