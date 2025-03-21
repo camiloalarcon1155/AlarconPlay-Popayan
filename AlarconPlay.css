@@ -75,7 +75,31 @@ ol, ul, li {
 .asideMenuPrincipal {
     position: absolute;
     top: 0rem;
-    background-color: darkslateblue;
+    /* background-color: darkslateblue; */
+    background: radial-gradient(
+        circle,
+        #292136, /* Color 1 */
+        #2D3468, /* Color 2 */
+        #4D569B, /* Color 3 */
+        #7965D4, /* Color 4 */
+        #526AD6, /* Color 5 */
+
+        #465692, /* Color 6 */
+        #465692, /* Color 7 */
+        #465692, /* Color 8 */
+        #6F82E9, /* Color 9 */
+        #5B93AA, /* Color 10 */
+
+        #5AA3C6, /* Color 11 */
+        #6784A4, /* Color 12 */
+        #3F518F, /* Color 13 */
+        #2F2E4D  /* Color 14 */
+    );
+    background-size: 400% 400%; /* Para animar el degradado */
+    animation: gradientAnimation 15s ease infinite; /* Animación */
+    
+
+
     width: 82%;
     height: 7.4rem;
     
@@ -97,8 +121,31 @@ ol, ul, li {
 
 .asideMenu2Principal {
     position: absolute;
-    top: 7rem;
-    background-color: darkslateblue;
+    top: 7.4rem;
+    background: radial-gradient(
+        circle,
+        #292136, /* Color 1 */
+        #2D3468, /* Color 2 */
+        #4D569B, /* Color 3 */
+        #7965D4, /* Color 4 */
+        #526AD6, /* Color 5 */
+
+        #465692, /* Color 6 */
+        #465692, /* Color 7 */
+        #465692, /* Color 8 */
+        #6F82E9, /* Color 9 */
+        #5B93AA, /* Color 10 */
+
+        #5AA3C6, /* Color 11 */
+        #6784A4, /* Color 12 */
+        #3F518F, /* Color 13 */
+        #2F2E4D  /* Color 14 */
+    );    
+    background-size: 400% 400%; /* Para animar el degradado */
+    animation: gradientAnimation 15s ease infinite; /* Animación */
+    
+
+
     width: 35%;
     height: 100%;
     
@@ -129,21 +176,21 @@ ol, ul, li {
 
 
 .page-main {
-    background: radial-gradient(
-        circle,
-        #292136, /* Color 1 */
+    background: linear-gradient(
+        135deg,
+         #292136, /* Color 1 */
         #2D3468, /* Color 2 */
         #4D569B, /* Color 3 */
         #7965D4, /* Color 4 */
-        #526AD6, /* Color 5 */
+        
 
         #465692, /* Color 6 */
         #465692, /* Color 7 */
         #465692, /* Color 8 */
         #6F82E9, /* Color 9 */
-        #5B93AA, /* Color 10 */
+        
 
-        #5AA3C6, /* Color 11 */
+        
         #6784A4, /* Color 12 */
         #3F518F, /* Color 13 */
         #2F2E4D  /* Color 14 */
