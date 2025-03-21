@@ -124,3 +124,51 @@ ol, ul, li {
     font-style: normal;   
     color: white;
 }
+
+
+
+
+.page-main {
+    background: radial-gradient(
+        circle,
+        #292136, /* Color 1 */
+        #2D3468, /* Color 2 */
+        #4D569B, /* Color 3 */
+        #7965D4, /* Color 4 */
+        #526AD6, /* Color 5 */
+
+        #465692, /* Color 6 */
+        #465692, /* Color 7 */
+        #465692, /* Color 8 */
+        #6F82E9, /* Color 9 */
+        #5B93AA, /* Color 10 */
+
+        #5AA3C6, /* Color 11 */
+        #6784A4, /* Color 12 */
+        #3F518F, /* Color 13 */
+        #2F2E4D  /* Color 14 */
+    );
+    background-size: 400% 400%; /* Para animar el degradado */
+    animation: gradientAnimation 15s ease infinite; /* Animación */
+    color: #ffffff; /* Color del texto */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
