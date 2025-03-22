@@ -240,7 +240,7 @@ ol, ul, li {
     }
 }
 
-.page-main__contacto {
+/* .page-main__contacto {
     width: 100%;
     height: 40rem;
     font-size: 3rem;
@@ -263,4 +263,32 @@ ol, ul, li {
 .logoContacto {
     width: auto;
     height: 100%;
+} */
+
+
+.page-main__contacto {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.header-contacto {
+    height: 15%;
+    width: 100%;
+    background-color: #292136;
+}
+
+
+.main-contacto {
+    height: 75%;
+}
+
+.footer-contacto {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 10%;
+    width: 100%;
+    background-color: #292136;
 }
