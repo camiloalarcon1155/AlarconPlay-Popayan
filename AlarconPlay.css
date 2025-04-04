@@ -25,6 +25,7 @@ body {
     box-sizing: border-box;
     padding: 0;
     line-height: 1.6;
+    min-height: 100vh;
 }
 
 
@@ -245,19 +246,23 @@ ol, ul, li {
     flex-direction: column;
     height: 100%;
     width: 100%;
-}
+    padding: 1rem 1rem 0 1rem;
+    gap: 40px;}
 
 .header-contacto {
-    height: 15%;
+    height: 10%;
     width: 100%;
     background-color: #292136;
 }
 
 
 .main-contacto {
-    height: 75%;
+    /* height: 50%; */
     display: flex;
     flex-direction: row;
+    gap: 10px;
+    flex-grow: 1;
+    
 }
 
 .contacto__contenedor-opcion1 {
@@ -288,9 +293,6 @@ ol, ul, li {
 }
 
 .footer-contacto {
-    position: fixed;
-    bottom: 0;
-    left: 0;
     height: 10%;
     width: 100%;
     background-color: #292136;
