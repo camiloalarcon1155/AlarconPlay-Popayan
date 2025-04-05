@@ -230,9 +230,9 @@ ol, ul, li {
     animation: gradientAnimation 15s ease infinite; /* Animación */
     color: #ffffff; /* Color del texto */
     font-family: Arial, sans-serif;
+    height: 90vh;
     margin: 0;
     padding: 0;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
