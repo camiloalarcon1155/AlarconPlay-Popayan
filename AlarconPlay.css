@@ -40,7 +40,7 @@ ol, ul, li {
 
 .page-header{
     width: 100%;
-    height: 7.4rem;
+    height: 10vh;
     background: linear-gradient(
         135deg,
          #292136, /* Color 1 */
@@ -73,23 +73,33 @@ ol, ul, li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 100%;
+    width: 100%;
 }
 /* .contenedorLogoEmpresa {
     width: 10rem;
     height: 7.4rem;
 } */
 
+.contenedor__logo-empresa1,
+.contenedor__logo-empresa2,
+.contenedor__menu-paginas {
+    height: 100%;
+    width: auto;
+}
 
-.logoEmpresa,
-.logoEmpresa2 {
-    width: 7.4rem;
-    height: 7.4rem;
-    /* object-fit: contain; */
+
+.logoEmpresa2,
+.logoEmpresa {
+    width: auto;
+    height: 100%;
+    
 }
 
 .imgMenuPrincipal{
-    width: 7.4rem;
-    height: 7.4rem;
+    width: auto;
+    height: 100%;
+    
 }
 
 
