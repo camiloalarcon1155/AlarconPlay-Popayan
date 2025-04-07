@@ -62,7 +62,7 @@ ol, ul, li {
     );
     background-size: 400% 400%; /* Para animar el degradado */
     animation: gradientAnimation 15s ease infinite; /* Animación */
-
+    position: relative;
 }
 
 .inactive {
@@ -104,8 +104,8 @@ ol, ul, li {
 
 
 .asideMenuPrincipal {
-    height: 10%;
-    width: 83%;
+    height: 100%;
+    width: 82%;
     position: absolute;
     top: 0rem;
     /* background-color: darkslateblue; */
@@ -154,9 +154,10 @@ ol, ul, li {
 
 .asideMenu2Principal {
     width: 35%;
-    height: 90%;
+    height: auto;
+    min-height: 90vh;
     position: absolute;
-    top: 10%;
+    top: 100%;
     background: radial-gradient(
         circle,
         #292136, /* Color 1 */
