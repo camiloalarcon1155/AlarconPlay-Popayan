@@ -104,6 +104,8 @@ ol, ul, li {
 
 
 .asideMenuPrincipal {
+    height: 10%;
+    width: 83%;
     position: absolute;
     top: 0rem;
     /* background-color: darkslateblue; */
@@ -131,8 +133,8 @@ ol, ul, li {
     
 
 
-    width: 82%;
-    height: 7.4rem;
+/*     width: 82%;
+    height: 7.4rem; */
     
 }
 
@@ -151,8 +153,10 @@ ol, ul, li {
 }
 
 .asideMenu2Principal {
+    width: 35%;
+    height: 90%;
     position: absolute;
-    top: 7.4rem;
+    top: 10%;
     background: radial-gradient(
         circle,
         #292136, /* Color 1 */
@@ -174,12 +178,6 @@ ol, ul, li {
     );    
     background-size: 400% 400%; /* Para animar el degradado */
     animation: gradientAnimation 15s ease infinite; /* Animación */
-    
-
-
-    width: 35%;
-    height: 100%;
-    
 }
 
 .opcionesMenu2{
@@ -207,6 +205,7 @@ ol, ul, li {
 
 
 .page-main {
+    height: 90vh;
     background: linear-gradient(
         135deg,
          #292136, /* Color 1 */
@@ -230,7 +229,6 @@ ol, ul, li {
     animation: gradientAnimation 15s ease infinite; /* Animación */
     color: #ffffff; /* Color del texto */
     font-family: Arial, sans-serif;
-    height: 90vh;
     margin: 0;
     padding: 0;
     display: flex;
