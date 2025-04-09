@@ -41,21 +41,21 @@ ol, ul, li {
 .page-header{
     width: 100%;
     height: 10vh;
-    background: linear-gradient(
-        135deg,
-         #292136, /* Color 1 */
+    background: radial-gradient(
+        circle,
+        #292136, /* Color 1 */
         #2D3468, /* Color 2 */
         #4D569B, /* Color 3 */
         #7965D4, /* Color 4 */
-        
+        #526AD6, /* Color 5 */
 
         #465692, /* Color 6 */
         #465692, /* Color 7 */
         #465692, /* Color 8 */
         #6F82E9, /* Color 9 */
-        
+        #5B93AA, /* Color 10 */
 
-        
+        #5AA3C6, /* Color 11 */
         #6784A4, /* Color 12 */
         #3F518F, /* Color 13 */
         #2F2E4D  /* Color 14 */
@@ -99,13 +99,16 @@ ol, ul, li {
 .imgMenuPrincipal{
     width: auto;
     height: 100%;
+    position: relative;
+    z-index: 1;
     
 }
 
 
 .asideMenuPrincipal {
     height: 100%;
-    width: 82%;
+    width: 100%;
+    max-width: 85%;
     position: absolute;
     top: 0rem;
     /* background-color: darkslateblue; */
@@ -150,6 +153,10 @@ ol, ul, li {
     font-weight: 400;
     font-style: normal;   
     color: white;
+}
+
+.opcionesMenu li:nth-child(6) {
+    color: transparent;
 }
 
 .asideMenu2Principal {
@@ -256,7 +263,8 @@ ol, ul, li {
     height: 100%;
     width: 100%;
     padding: 1rem 1rem 0 1rem;
-    gap: 40px;}
+    gap: 20px;
+}
 
 .header-contacto {
     height: 10%;
@@ -266,7 +274,7 @@ ol, ul, li {
 
 
 .main-contacto {
-    /* height: 50%; */
+    height: 80%;
     display: flex;
     flex-direction: row;
     gap: 10px;
