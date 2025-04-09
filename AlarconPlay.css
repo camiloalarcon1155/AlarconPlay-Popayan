@@ -150,13 +150,21 @@ ol, ul, li {
     height: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     justify-items: center;
     align-items: center;
     font-family: "Russo One", sans-serif;
     font-weight: 400;
     font-style: normal;   
     color: white;
+    font-size: 0.9rem;
+    justify-content: space-evenly;
+}
+
+.opcionesMenu li{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .opcionesMenu li:nth-child(6) {
@@ -165,8 +173,7 @@ ol, ul, li {
 
 .asideMenu2Principal {
     width: 50%;
-    height: auto;
-    min-height: 90vh;
+    height: 90vh;
     position: absolute;
     top: 100%;
     background: radial-gradient(
@@ -190,6 +197,12 @@ ol, ul, li {
     );    
     background-size: 400% 400%; /* Para animar el degradado */
     animation: gradientAnimation 15s ease infinite; /* Animación */
+    padding: 0 1rem 0 1rem;
+}
+
+.opcionesPrincipales2 {
+    height: 100%;
+    width: 100%;
 }
 
 .opcionesMenu2{
@@ -203,15 +216,19 @@ ol, ul, li {
 }
 
 .opcionesMenu2 li {
-    height: 3.5rem;
+    height: 1rem;
     width: 100%;
     /* text-align: center; */
-    line-height: 3.5rem;
+    line-height: 1rem;
     font-family: "Russo One", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: white;
     padding-left: 1rem;
+    font-size: 1.2rem;
+
+    display: flex;
+    flex-direction: column;
 }
 
 
