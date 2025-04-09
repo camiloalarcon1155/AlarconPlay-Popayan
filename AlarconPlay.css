@@ -104,6 +104,12 @@ ol, ul, li {
     
 }
 
+.imgMenuSimulado{
+    width: auto;
+    height: 100%;
+}
+
+
 
 .asideMenuPrincipal {
     height: 100%;
@@ -143,6 +149,8 @@ ol, ul, li {
 
 .opcionesPrincipales {
     height: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
 .opcionesMenu{
@@ -164,11 +172,7 @@ ol, ul, li {
 .opcionesMenu li{ 
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-.opcionesMenu li:nth-child(6) {
-    color: transparent;
+    text-align: center;
 }
 
 .asideMenu2Principal {
