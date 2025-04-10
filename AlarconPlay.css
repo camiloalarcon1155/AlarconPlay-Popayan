@@ -295,8 +295,7 @@ ol, ul, li {
 .header-contacto {
     height: 15%;
     width: 100%;
-    background-color: #292136;
-    
+    background-color: #292136;  
 }
 
 
@@ -345,3 +344,48 @@ ol, ul, li {
     background-color: #292136;
     font-size: 20px;
 }
+
+
+.page-main__planes {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 1rem 1rem 0 1rem;
+    gap: 20px;
+}
+
+.header-planes {
+    height: 15%;
+    width: 100%;
+    background-color: #292136;  
+}
+
+.main-planes {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    flex-grow: 1;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .footer-planes {
+    height: 6%;
+    width: 100%;
+    background-color: #292136;
+    font-size: 20px;
+} */
