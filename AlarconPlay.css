@@ -393,7 +393,9 @@ ol, ul, li {
 .planes__contenedor-opcion9,
 .planes__contenedor-opcion10,
 .planes__contenedor-opcion11,
-.planes__contenedor-opcion12 {
+.planes__contenedor-opcion12,
+.planes__contenedor-opcion13,
+.planes__contenedor-opcion14 {
     display: flex;
     flex-direction: column;
     width: 100%;
