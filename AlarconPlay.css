@@ -66,7 +66,11 @@ ol, ul, li {
 }
 
 .inactive {
-    display: none;
+    display: none !important;
+}
+
+.activeFlex {
+    display: flex;
 }
 
 .navegadorPrincipal {
@@ -359,7 +363,7 @@ ol, ul, li {
 .header-planes {
     height: 15%;
     width: 100%;
-    background-color: #0c1330;;  
+    background-color: #292136;  
 }
 
 .main-planes {
@@ -370,15 +374,6 @@ ol, ul, li {
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
     column-gap: 1rem;
     row-gap: 5rem;
-/*     grid-template-rows: 400px 400px 400px;
-    grid-template-columns: 300px 300px 300px; 
-    gap: 10px;*/
-     /*
-    flex-grow: 1;
-    align-content: space-around;
-    justify-content: space-around;
-    align-items: center;
-    justify-items: center; */
 } 
 
 
@@ -401,7 +396,7 @@ ol, ul, li {
     width: 100%;
     height: 100%;
     justify-content: center;
-    background-color: #0c1330;
+    background-color: #292136;
     
 }
 
@@ -418,9 +413,62 @@ ol, ul, li {
 
 
 
-/* .footer-planes {
-    height: 6%;
+ .footer-planes {
+    height: 10%;
     width: 100%;
     background-color: #292136;
     font-size: 20px;
-} */
+} 
+
+
+
+.page-main__catalogo {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 1rem 1rem 0 1rem;
+    gap: 20px;
+}
+
+.header-catalogo {
+    height: 15%;
+    width: 100%;
+    background-color: #292136;  
+}
+
+.main-catalogo {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-auto-rows: 400px;
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+    column-gap: 1rem;
+    row-gap: 5rem;
+} 
+
+
+
+
+.juegos__contenedor-opcion1,
+.juegos__contenedor-opcion2,
+.juegos__contenedor-opcion3,
+.juegos__contenedor-opcion4,
+.juegos__contenedor-opcion5,
+.juegos__contenedor-opcion6,
+.juegos__contenedor-opcion7,
+.juegos__contenedor-opcion8,
+.juegos__contenedor-opcion9,
+.juegos__contenedor-opcion10,
+.juegos__contenedor-opcion11,
+.juegos__contenedor-opcion12,
+.juegos__contenedor-opcion13,
+.juegos__contenedor-opcion14 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-color: #292136;
+    
+}
