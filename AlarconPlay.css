@@ -234,7 +234,6 @@ ol, ul, li {
     color: white;
     padding-left: 1rem;
     font-size: 1.2rem;
-
     display: flex;
     flex-direction: column;
 }
